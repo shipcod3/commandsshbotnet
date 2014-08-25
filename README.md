@@ -8,7 +8,9 @@ commandsshbotnet
 sample usage
 ============
 python commandsshbotnet.py "nmap localhost"
+
 python commandsshbotnet.py "uname -a"
+
 python commandsshbotnet.py ls
 
 credits
