@@ -1,6 +1,6 @@
 # commandsshbotnet.py
 # author: @shipcod3
-# inspired by the mass ssh botnet in " Violent Python Cookbook "
+# inspired by the mass ssh botnet in " Violent Python "
 
 import optparse
 import pxssh
