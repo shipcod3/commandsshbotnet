@@ -22,11 +22,17 @@ Traceback (most recent call last):
 You can fix it by editing /usr/lib/python2.7/dist-packages/pxssh.py and add the following lines as indicated by the comment:
 
 def synch_original_prompt (self):
+
     self.sendline()     # add this line
+    
     time.sleep(0.5)    # add this line
+    
     self.read_nonblocking(size=10000,timeout=1) # GAS: Clear out the cache before getting the prompt #no need to add this
+    
     time.sleep(0.1) #no need to add this
+    
     self.sendline() #no need to add this
+    
     time.sleep(0.5) #no need to add this
 
 sample usage
