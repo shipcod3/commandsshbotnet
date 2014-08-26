@@ -1,6 +1,10 @@
-# commandsshbotnet.py
-# author: @shipcod3
-# inspired by the mass ssh botnet in " Violent Python "
+#!usr/bin/env python
+
+##########################################################
+# commandsshbotnet.py                                    #
+# author: @shipcod3                                      #
+# inspired by the mass ssh botnet in " Violent Python "  #
+##########################################################
 
 import optparse
 import pxssh
