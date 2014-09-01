@@ -71,9 +71,12 @@ def main(argv):
     addClient('127.0.0.2', 'celso', 'celso123')
 
     if arg_command == "os":
-        os_command = sys.argv[2]
-        botnetCommand(os_command)
-        
+        try:
+            os_command = sys.argv[2]
+            botnetCommand(os_command)
+        except:
+            return usage()
+            
     elif arg_command == "info":
         info("uname -a;uptime")
 
