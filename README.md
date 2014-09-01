@@ -32,11 +32,9 @@ You can fix it by editing /usr/lib/python2.7/dist-packages/pxssh.py and add the 
 
 Sample usage
 ============
-python commandsshbotnet.py "nmap localhost"
+     python commandsshbotnet.py os "uname -a" - For command and control
 
-python commandsshbotnet.py "uname -a"
-
-python commandsshbotnet.py ls
+     python commandsshbotnet.py info - Print info
 
 Credits
 =======
