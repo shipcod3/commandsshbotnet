@@ -12,7 +12,15 @@ import optparse
 import pxssh
 import sys
 
-print "[*-*] Engine start.........."
+print "[*-*] Engine start..........\n"
+print """
+                                                .___   ____                                                       _____       .__.__    
+  ____  ____   _____   _____ _____    ____    __| _/  /  _ \     ____  ____   ____   ________ __   ___________  _/ ____\____  |__|  |   
+_/ ___\/  _ \ /     \ /     \\__  \  /    \  / __ |   >  _ </\ _/ ___\/  _ \ /    \ / ____/  |  \_/ __ \_  __ \ \   __\\__  \ |  |  |   
+\  \__(  <_> )  Y Y  \  Y Y  \/ __ \|   |  \/ /_/ |  /  <_\ \/ \  \__(  <_> )   |  < <_|  |  |  /\  ___/|  | \/  |  |   / __ \|  |  |__ 
+ \___  >____/|__|_|  /__|_|  (____  /___|  /\____ |  \_____\ \  \___  >____/|___|  /\__   |____/  \___  >__|     |__|  (____  /__|____/ 
+     \/            \/      \/     \/     \/      \/         \/      \/           \/    |__|           \/                    \/          
+""""
 
 class Client:
     def __init__(self, host, user, password):
@@ -85,3 +93,10 @@ def main(argv):
 
 if __name__ == "__main__":
     main(sys.argv)
+
+###
+#
+# I have been contributing to Metasploit lately which pwns IRC Botnets lately and will comeup with a PoC
+# for these kind of bots soon. More IRC Bot exploits:  https://github.com/shipcod3/IRC-Bot-Hunters
+# - shipcod3
+###
