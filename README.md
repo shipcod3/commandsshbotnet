@@ -4,6 +4,7 @@ commandsshbotnet
 - A command and conquer PoC mass SSH botnet
 - Inspired by the mass ssh botnet in Violent Python Cookbook (my scratch for writing this ssh botnet)
 - Allows you to send a command in running the script
+- Created for educational purposes and as a sample pwnage script for a Metasploit module soon: https://github.com/shipcod3/IRC-Bot-Hunters
 
 Instruction
 ===========
