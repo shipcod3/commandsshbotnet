@@ -96,7 +96,7 @@ if __name__ == "__main__":
 
 ###
 #
-# I have been contributing to Metasploit lately which pwns IRC Botnets lately and will comeup with a PoC
+# I have been contributing to Metasploit modules lately which pwns IRC Botnets lately and will comeup with a PoC
 # for these kind of bots soon. More IRC Bot exploits:  https://github.com/shipcod3/IRC-Bot-Hunters
 # - shipcod3
 ###
